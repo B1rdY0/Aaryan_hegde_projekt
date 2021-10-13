@@ -5,8 +5,44 @@
 }
 
 .header {
-  background-color: #c5081f;
+  background-color: #f10a0a;
   color: green;
-  height: 80px;
   margin: 0;
+  display: flex;
+  width: 142px;
+  height: 400px;
 }
+
+.header_2 {
+  background-color: #c5081f;
+  color: aquamarine;
+  margin: 0;
+  display: flex;
+  width: 900px;
+  height: 90px;
+}
+
+html {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  grid-template-rows: 10% 30% 20%;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.red {
+  background-color: #f10a0a;
+  grid-row: 1 / 3;
+}
+
+.mid-red {
+  background-color: #c5081f;
+}
+
+.
