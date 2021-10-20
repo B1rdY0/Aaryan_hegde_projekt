@@ -29,9 +29,9 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: 10% 60% 30%;
-  grid-template-rows: 10% 30% 20%;
-  width: 100vw;
+  grid-template-columns: 10% 30% 20% 30% 10%;
+  grid-template-rows: 10% 30% 20% 30% 10%;
+  width: 115vw;
   min-height: 100vh;
   background-color: black;
 }
@@ -39,33 +39,28 @@ body {
 .red {
   background-color: #f10a0a;
   grid-row: 1 / 4;
-  width: 100%;
 }
 
 .mid-red {
   background-color: #c5081f;
-  grid-column: 2 / 3;
-  width: 80%;
+  grid-column: 2 / 4;
 }
 
-
-.dark-red{
-  background-color: #9A0F18;
-  width: 100%;
-  height: 170px;
+.dark-red {
+  background-color: #9a0f18;
+  grid-column: 4 / 5;
+  grid-row: 1 / 3
 }
 
-.mid-purple{
-  background-color: #C70CBF;
-  width: 100px;
-  height: 100px;
-  grid-column:  3 / 2;
+.mid-purple {
+  background-color: #c70cbf;
+  grid-column: 3 / 2;
 }
 
-.purple{
-  background-color: #FA29E5;
+.purple {
+  background-color: #fa29e5;
 }
 
-.dark-purple{
-  background-color: #8B0A77;
+.dark-purple {
+  background-color: #8b0a77;
 }
