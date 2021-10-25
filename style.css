@@ -54,13 +54,17 @@ body {
 
 .mid-purple {
   background-color: #c70cbf;
-  grid-column: 3 / 2;
+  grid-row: 3 / 6;
+  grid-column: 4 / 5;
 }
 
 .purple {
   background-color: #fa29e5;
+  grid-row: 4 / 6;
 }
 
 .dark-purple {
   background-color: #8b0a77;
+  grid-column: 5 / 3;
+  grid-row: 5 / 3;
 }
