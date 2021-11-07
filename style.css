@@ -29,9 +29,9 @@ html {
 
 body {
   display: grid;
-  grid-template-columns: 15% 35% 25% 35% 15%;
-  grid-template-rows: 10% 30% 20% 30% 10%;
-  width: 150vw;
+  grid-template-columns: 15% 25% 20% 25% 15%;
+  grid-template-rows: 15% 25% 20% 25% 15%;
+  width: 100vw;
   min-height: 100vh;
   background-color: black;
 }
@@ -43,24 +43,25 @@ body {
 
 .mid-red {
   background-color: #c5081f;
-  grid-column: 2 / 5;
+  grid-column: 2 / 4;
 }
 
 .dark-red {
   background-color: #9a0f18;
-  grid-column: 5 / 6;
+  grid-column: 4 / 6;
   grid-row: 1 / 3
 }
 
 .mid-purple {
   background-color: #c70cbf;
   grid-row: 3 / 6;
-  grid-column: 4 / 5;
+  grid-column: 5 / 6;
 }
 
 .purple {
   background-color: #fa29e5;
   grid-row: 4 / 6;
+  grid-column: 1 / 3;
 }
 
 .dark-purple {
