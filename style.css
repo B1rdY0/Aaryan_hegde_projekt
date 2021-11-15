@@ -44,6 +44,8 @@ body {
 .mid-red {
   background-color: #c5081f;
   grid-column: 2 / 4;
+  text-align: center;
+  
 }
 
 .dark-red {
@@ -70,31 +72,68 @@ body {
   grid-row: 5 / 6;
 }
 
-.pictures{
-display: flex;
-flex-direction: column;
-justify-content: row;
-padding: 5px;
-}
-
-.pictures_2{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-padding: 5px;
-}
-
-.pictures_3{
-display: flex;
-flex-direction: column;
-justify-content: row;
-padding: 5px;
-}
-
-.pictures_4{
+.pictures {
   display: flex;
-flex-direction: column;
-justify-content: space-between;
-padding: 5px;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
 
+.pictures_2 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_3 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_4 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_5 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_6 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_7 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.pictures_8 {
+  display: flex;
+  flex-direction: column column-reverse;
+  justify-content: row;
+  padding: 5px;
+}
+
+.gif_1 {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.gif_2{
+  margin-left: 10px;
+  margin-top: 10px;
 }
