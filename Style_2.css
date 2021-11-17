@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header
+  {
+      display: flex;
+      flex-direction: row;
+      background-color: #700909;
+      height: 100px;
+  }
+
+  .Container_1
+  {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    background-color: #0E0437;
+  }
+
+  .Block_1{
+    width: 10px;
+    height: 300px;
+
+  }
+
+  .Block_2{
+    height: 300px;
+  }
+
+  .Block_3{
+    height: 300px;
+  }

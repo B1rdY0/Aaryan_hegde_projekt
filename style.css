@@ -6,7 +6,6 @@
 
 .header {
   background-color: #f10a0a;
-  color: green;
   margin: 0;
   display: flex;
   width: 142px;
@@ -45,7 +44,6 @@ body {
   background-color: #c5081f;
   grid-column: 2 / 4;
   text-align: center;
-  
 }
 
 .dark-red {
@@ -133,11 +131,10 @@ body {
   margin-top: 10px;
 }
 
-.gif_2{
+.gif_2 {
   margin-left: 10px;
   margin-top: 10px;
 }
-
 
 .pictures_9 {
   display: flex;
